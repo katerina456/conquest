@@ -1,0 +1,80 @@
+@media screen and (max-width: 750px) {
+  .container {
+    max-width: none;
+    margin: 0 10px;
+  }
+  .navigation .navigation-item {
+    margin-right: 20px;
+  }
+  .collection {
+    height: 445px;
+  }
+  .container-collection {
+    background-position-x: right;
+  }
+  .collection-item:first-of-type {
+    margin-left: 50px;
+  }
+  .collection-item:last-of-type {
+    background-size: 100%;
+    background-position-y: center;
+  }
+  .collection-item .h1 {
+    font-size: 37px;
+  }
+  .collection-item .h2 {
+    font-size: 28px;
+  }
+  .popular-watch {
+    justify-content: center;
+    align-items: center;
+  }
+  .popular-watch .arrow {
+    display: flex;
+    margin: 0 15px;
+  }
+  .popular-watch-item {
+    display: none;
+  }
+  .popular-watch-item .watch-img {
+    width: 313px;
+    height: 313px;
+  }
+  .view {
+    display: block;
+  }
+  .quality-container {
+    flex-direction: column;
+  }
+  .layout {
+    height: fit-content;
+  }
+  .banner {
+    margin: 0 auto;
+  }
+  .quality-info {
+    width: fit-content;
+  }
+  .container-footer {
+    justify-content: space-around;
+  }
+  .footer-menu {
+    flex-direction: column;
+    flex-grow: 0;
+  }
+  .footer-menu div {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-menu div .h3 {
+    margin-right: 10px;
+  }
+  .footer-navigation {
+    display: none;
+  }
+  .drop-down {
+    display: block;
+    transform: rotate(90deg);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,49 @@
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 700px;
+  }
+  .collection {
+    height: 674px;
+  }
+  .collection-item:last-of-type {
+    background-size: 125%;
+  }
+  .title:first-of-type img {
+    display: none;
+  }
+  .title:last-of-type {
+    margin-left: 0;
+  }
+  .collection-item .price-box, .collection-item .diameter {
+    display: none;
+  }
+  .popular-watch-item {
+    padding: 10px 9px;
+  }
+  .popular-watch-item .watch-img {
+    width: 200px;
+    height: 200px;
+  }
+  .layout {
+    height: 435px;
+  }
+  .banner {
+    margin-right: 50px;
+  }
+  .banner .banner-img {
+    width: 360px;
+  }
+  .banner div {
+    margin-right: 50px;
+  }
+  .news-container {
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  .photos .photo:first-of-type {
+    display: none;
+  }
+  .conquest {
+    margin-right: 60px;
+  }
+}

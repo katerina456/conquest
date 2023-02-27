@@ -1,0 +1,25 @@
+@media screen and (max-width: 750px) {
+  .navigation {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+    width: 40px;
+  }
+  .popular-watch-item .watch-img {
+    width: 200px;
+    height: 200px;
+  }
+  .banner .banner-img {
+    width: 300px;
+  }
+  .photos {
+    display: none;
+  }
+  .conquest {
+    margin-right: 0;
+  }
+  .button-pink {
+    align-self: center;
+  }
+}
